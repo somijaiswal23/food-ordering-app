@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Details.css';
+import { withStyles } from '@material-ui/core/styles';
 import Header from '../../common/header/Header';
 
 const styles = theme => ({});
@@ -9,7 +10,7 @@ class Details extends Component {
         return (
             <div>
                 <Header />
-                Details page
+                <h1>Details page</h1>
             </div>
         )
     }
